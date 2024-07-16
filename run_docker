@@ -1,0 +1,3 @@
+sudo docker run -d -p 8080:80 beshctf-app
+echo "dont forget to php artisan migrate --seed"
+echo "sudo docker exec -it HASH bin/bash"
